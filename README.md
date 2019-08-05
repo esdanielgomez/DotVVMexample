@@ -4,9 +4,15 @@ Para el desarrollo de aplicaciones web empleando el Framework DotVVM se puede em
 
 https://visualstudio.microsoft.com/es/downloads/
 
-## Modelo VMMV
+## Modelo Vista Vista Modelo (VMMV)
 
-DotVVM es de código abierto y se integra con ASP.NET Core y ASP.NET clásico a traves del patron de diseño Modelo VMMV.
+<img src="https://shirivo.files.wordpress.com/2015/06/mvvm.png">
+
+Model: El modelo, dentro de MVVM es el encargado de representar el modelo del negocio, proveyendo de esta manera la base necesaria para la manipulación de los datos de la aplicación.
+
+View: La vista es la parte encargada de la parte visual de nuestra aplicación.
+
+ViewModel: El ViewModel (modelo de vista en español) es el encargado de ser la capa intermedia entre el modelo y la vista, procesando todas las peticiones que tenga la vista hacia el modelo, además de tener que ocuparse de manejar las reglas del negocio, la comunicación con aplicaciones externas o consumir datos desde alguna fuente (Bases de Datos, Web Services, Sensores, etc.).
 
 ## Instalacion de .NET Core
 
